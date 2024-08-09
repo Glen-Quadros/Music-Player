@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  --darker-shade: #000000;
+}
+
+.app {
+  background: linear-gradient(to right, var(--background-color), var(--darker-shade));
+  color: white;
+  min-height: 100vh;
+  min-width: 100vw;
+}

@@ -1,0 +1,33 @@
+.songs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.songs.selected {
+  background-color: rgb(59, 59, 59);
+  border-radius: 0.5rem;
+}
+
+.song {
+  display: flex;
+  gap: 1rem;
+}
+
+.coverImage img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.musicArtist {
+  color: grey;
+}
+
+.timeStamp p {
+  color: grey;
+}

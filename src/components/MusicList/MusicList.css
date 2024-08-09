@@ -1,0 +1,68 @@
+.musicListContainer {
+  width: 30%;
+}
+
+@media (max-width: 900px) {
+  .musicListContainer {
+    width: 100%;
+  }
+}
+
+.header {
+  display: flex;
+  gap: 2rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 2.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+@media (max-width: 900px) {
+  .header {
+    padding-top: 7rem;
+  }
+}
+
+.tab {
+  cursor: pointer;
+}
+
+.tab.active {
+  color: white;
+}
+
+.tab.inactive {
+  color: grey;
+}
+
+.search {
+  padding: 1rem;
+}
+
+.search input {
+  width: 93%;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: 0;
+  padding: 0 1rem;
+}
+
+.search .icon {
+  position: absolute;
+  right: 46rem;
+  transform: translateY(-130%);
+  font-size: 1.5rem;
+  color: grey;
+}
+
+@media (max-width: 900px) {
+  .search .icon {
+    right: 2rem;
+  }
+}
+
+.musics {
+  padding-top: 1rem;
+}
